@@ -4,7 +4,7 @@
 ## 📄 Descrição
 
 
-Este projeto foi desenvolvido com o intuito de criar um dashboard de vendas, ajudando analistas a entender os índices de assinaturas de produtos do XBOX (dados fictícios, apenas para exemplificar), e aplicar conceitos de Excel de criação de *Dashboards* e transformação de dados em informações claras e uteis para tomada de descisão.  
+Este projeto foi desenvolvido com o intuito de criar um *Dashboard* de vendas, ajudando analistas a entender os índices de assinaturas de produtos do XBOX (dados fictícios, apenas para exemplificar), e aplicar conceitos de Excel de criação de *Dashboards* e transformação de dados em informações claras e uteis para tomada de decisão.  
 
 Nesta planilha temos dois gráficos, base de dados, tabelas de cálculos e também *assets* que fazem parte para a criação do Dashboard.   
 Valew ressaltar o contexto que foi entregue neste projeto:   
