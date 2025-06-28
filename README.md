@@ -16,7 +16,7 @@ Valew ressaltar o contexto que foi entregue neste projeto:
 
 > Precisa conter gráficos dínamicos e interativos, que possa permitir uma análise eficaz do desempenho de vendas e para a tomada de decisões baseadas em dados. 
 
-Este [projeto](ProjetoEXCEL/Dashboard%20de%20Vendas%20-%20XBOX) pode ser usado como base para futuras expansões e personalizações. 
+Este [projeto](ProjetoEXCEL/Dashboard%20de%20Vendas%20-%20XBOX.xlsx) pode ser usado como base para futuras expansões e personalizações. 
 
 
 ## ⚙ Estrutura
