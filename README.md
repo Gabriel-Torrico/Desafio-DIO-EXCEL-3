@@ -1,10 +1,10 @@
-***DESAFIO DE CURSO DIO - Projeto de Excel ✒***         
+![image](https://github.com/user-attachments/assets/156999df-7584-4e01-a166-f3285855a42b)![image](https://github.com/user-attachments/assets/cf60caee-e30d-47df-ad4b-faa635473d0d)***DESAFIO DE CURSO DIO - Projeto de Excel ✒***         
 ****DASHBOARD DE VENDAS****
 
 ## 📄 Descrição
 
 
-Este projeto foi desenvolvido com o intuito de criar um dashboard de vendas, ajudando analistas a entender os índices de inscrição de produtos do XBOX (dados fictícios, apenas para exemplificar), e aplicar conceitos de Excel de criação de *Dashboards* e transformação de dados em informações claras e uteis para tomada de descisão.  
+Este projeto foi desenvolvido com o intuito de criar um dashboard de vendas, ajudando analistas a entender os índices de assinaturas de produtos do XBOX (dados fictícios, apenas para exemplificar), e aplicar conceitos de Excel de criação de *Dashboards* e transformação de dados em informações claras e uteis para tomada de descisão.  
 
 Nesta planilha temos dois gráficos, base de dados, tabelas de cálculos e também *assets* que fazem parte para a criação do Dashboard.   
 Valew ressaltar o contexto que foi entregue neste projeto:   
@@ -58,71 +58,48 @@ Neste primeiro painel é onde separamos os recursos que iremos utilizar em todo 
   2. Lupa: Ícone de Pesquisa/Filtragem;
 
 
-### Bases
+### BASES
 
 
-No painel de **BASES** 
+No painel de **BASES** estão todos os dados ligados as vendas de assinaturas do "GAME PASS". Nesta tabela temos 295 ítens/linhas, 1 cabeçalho e 13 colunas:   
+(Imagem 2)
 
 
+### CÁLCULOS
 
 
+Aqui são feito os **CÁLCULOS** puxados na base de dados (Painel **BASES**), na qual temos 4 tabelas dinâmicas. 
+Cada uma respondendo as perguntas da ***Gerência*** sobre as vendas. Mas essas informações são mais claras na tabela de **DASHBOARD**.   
+(Imagem 3)
+
+   
+### DASHBOARD
 
 
+E por fim, temos a tabela principal. Aqui o usuário pode entender com mais clareza os resultados de vendas das assinaturas do XBOX GAME PASS (valores em R$).   
+Especificamente com os totais de assinaturas do "EA Season Pass" e "Minecraft Season Pass". 
 
+Temos uma segmentação de dados que serve como filtro para esses dados, dividios em 3 opções:
+- Anuual: Valores anuais; 
+- Monthly: Valores mensais; 
+- Quarterly: Valores trimestrais. 
+> OBS: É possível habilitar para selecionar mais de uma opção. Basta clicar no ícone entre o "Subscription Type" e "Limpar Filtro". 
 
-> OBS: Não é um valor que precisa seguir a risca. 
-Se sentir que precisa economizar mais ou investir mais do que a sugestão, na **Etapa 2** você pode inserir um novo valor que irá confirmar o quanto em R$ será separado mensalmente e investido.   
+Temos o total de dois Gráficos e dois visualizadores de totais de vendas. 
+1. TOTAL DE SUBSCRIPTION EA PLAY SEASON PASS: Total de inscrições da coluna "EA Season Pass". Temos uma tabela de ; 
+2. TOTAL DE SUBSCRIPTION MINECRAFT SEASON PASS: Total de inscrições da coluna "Minecraft Season Pass"; 
 
-É também possível alterar o tipo de **VISUALIZAÇÃO** no painel ao lado. Ao clicar na célula, irá aparecer duas opções.   
-1. "Informar avisos" adiciona textos que pode ajudar o usuário a entender os campos editáveis, útil para pessoas que não estão familiarizados e/ou esclarescer o que precisa inserir. 
-2. "Simples" é a visualização limpa e padrão, útil para quem está mais familiarizado no uso de simuladores.
+3. TOTAL DE SUBSCRIPTION XBOX GAME PASS - AUTO RENEWAL: Gráfico com o Valor total de inscrições do XBOX GAME PASS tirados da coluna "TOTAL VALUE", separados por "Auto Renovação" ou "Não é Auto Renovação". 
+4. AESÃO TOTAL DE SUBSCRIPTION TYPE: Gráfico com a Soma da contagem de assinaturas realizadas do XBOX GAME PASS, divididas e variadas em mêses.   
 
+(Imagem 4)
 
-### Etapa 2: Investimento mensal
-
-Nesta etapa, o usuário pode fazer as confirmações do seu investimento no painel **INVESTIMENTO MENSAL**: 
-1. *Aporte mensal*, o quanto vai investir mensalmente; 
-2. *Investimento Anual* é por quantos anos o usuário irá investir;
-3. *Taxa de rendimento mensal em %*, normalmente é ≈ 1,08%.
-  Após inserir esses dados, e também o *Rendimento Carteira* em **INICIALIZAÇÃO**, será gerado o Patrimonio Acumulado e os Dividendos Mensais. Você pode alterar os dados acima para ver novos resultados. 
-
-
-### Etapa 3: Entender outros Cenários
-
-Nesta etapa, temos a tabela não-editável **CENÁRIOS**:
-- Ela serve para o usuário visualizar diferentes retornos de investimentos em diferentes anos; 
-- Esses cálculos são parecidos com o painel de **INVESTIMENTO MENSAL** e depende dos dados inseridos. 
-
-
-### Etapa 4: Identificando seu Perfíl de Investidor
-Nesta etapa, o usuário pode inserir no painel **PERFIL DE INVESTIMENTO** o seu estilo de investimento em uma lista com três opções: 
-
-1. Conservador: Investidor(a) que prioriza segurança e estabilidade. Estes tem baixa tolerância à oscilações ou que estão começando a investir.
-2. Moderado: Investidor(a) que prioriza opções equilibradas e diversificadas. Estes tem tolerância moderada à oscilações e que tem mais experiência no mercado.
-3. Agressivo: Investidor(a) que prioriza oportunidades de alto riscos. Estes tem alta tolerância à oscilações e que se preparam para enfretar perdas temporárias.
-Depois de escolher uma das opções, será gerado cálculos na tabela abaixo. Essa tabela divide o *Aporte Mensal* em 6 categorias, cada uma com uma sugestão de investimendo ideal a depender de cada tipo de Perfil.
-Por exemplo: Para um investidor Conservador, será priorizado investir o dinheiro do *Aporte Mensal* em Fundos Imobiliários (FIIs) de "Tijolo", enquanto para um investidor Agressivo terá mais prioridade para os de Papel.
-
-
-## 📈 Gráficos
-
-Temos dois gráficos nesta planilha:
-1. Gráfico de Colunas - Linha do Tempo do Investimento - Vinculada diretamente no painel **CENÁRIOS**, representa os dados de *Retorno em Anos* e o *Patrimônio Acumulado*. 
-2. Gráfico de Pizza   - Sugestão de investimento por Tipos de FII's - Vinculada diretamente a tabela de Tipos de FII, contendo o resultado do percentual de cada categoria.
 
 ## 🛠 Considerações Finais
 
-Também tem uma planilha ****"CHAVE CONFIG"**** que são dados para alimentar o painel **PERFIL DE INVESTIMENTO**
 
 Gostaria de agradecer ao professor da DIO, Felipe Aguiar, pelas aulas fantásticas e explicações sobre o tema.
 Futuramente posso fazer um ajuste ou outro no arquivo e em suas funcionalidades, caso necessário.
-
-  Microsoft Excel.
-  Fórmulas usadas: SE, E, VF, PROCV.
-  Formatação Condicional e Gráfico de Pizza e Colunas.
-
-## 📁 Planilha
-
 
 
 ## 📥 Download da Planilha do Projeto
