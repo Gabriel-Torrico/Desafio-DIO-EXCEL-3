@@ -16,7 +16,7 @@ Valew ressaltar o contexto que foi entregue neste projeto:
 
 > Precisa conter gráficos dínamicos e interativos, que possa permitir uma análise eficaz do desempenho de vendas e para a tomada de decisões baseadas em dados. 
 
-Este projeto pode ser usado como base para futuras expansões e personalizações. 
+Este [projeto](ProjetoEXCEL/Dashboard%20de%20Vendas%20-%20XBOX) pode ser usado como base para futuras expansões e personalizações. 
 
 
 ## ⚙ Estrutura
@@ -24,14 +24,15 @@ Este projeto pode ser usado como base para futuras expansões e personalizaçõe
 
 Neste projeto, foi utilizado o **Método ABCDE** de organização, compartilhado pelo professor do curso. Na qual separa as tarefas de criação de projetos/Dashboards para melhor eficiência na criação e organização.   
 Os seguintes painéis seria:
-1. ASSETS: Recursos essenciais e complementares que serão utilizados no projeto, isso inclui imagens, vídeos, gifs e paletas de cores;
-2. BASES: Base de dados necessários para que a análise seja feita sobre ele;
-3. CÁLCULOS: Campo que processa a base de dados para transformar em informações;
+1. [ASSETS](#assets): Recursos essenciais e complementares que serão utilizados no projeto, isso inclui imagens, vídeos, gifs e paletas de cores;
+2. [BASES](#bases): Base de dados necessários para que a análise seja feita sobre ele;
+3. [CÁLCULOS](#cálculos): Campo que processa a base de dados para transformar em informações;
 
-5. *DASHBOARD*: Painel visual para análises claras. 
+5. [*DASHBOARD*](#dashboard): Painel visual para análises claras. 
 
-Para os usuários que irão trabalhar os dados principais de vendas, todas as funcionalidades estão no painel de ***DASHBOARD***.
-(Imagem 1)   
+Para os usuários que irão trabalhar os dados principais de vendas, todas as funcionalidades estão no painel de ***DASHBOARD***.   
+
+
 
 ## 🧱 Passo a Passo
 
@@ -55,14 +56,29 @@ Neste primeiro painel é onde separamos os recursos que iremos utilizar em todo 
 
 #### Ícones
   1. Usuários: Ícone de pessoa a depender do usuário/analista/gerente;
-  2. Lupa: Ícone de Pesquisa/Filtragem;
+  2. Lupa: Ícone de Pesquisa/Filtragem;   
+
+<img src="IMAGES/IMG1-ASSETS.png" alt="Imagem 1" width="750"/>   
 
 
 ### BASES
 
 
 No painel de **BASES** estão todos os dados ligados as vendas de assinaturas do "GAME PASS". Nesta tabela temos 295 ítens/linhas, 1 cabeçalho e 13 colunas:   
-(Imagem 2)
+1. Subscriber ID; 
+2. Name	Plan; 
+3. Start Date; 
+4. Auto Renewal; 
+5. Subscription Price; 
+6. Subscription Type; 
+7. EA Play Season Pass; 
+8. EA Play Season Pass Price; 
+9. Minecraft Season Pass; 
+10. Minecraft Season Pass Price; 
+11. Coupon Value; 
+12. Total Value.   
+
+<img src="IMAGES/IMG2-BASES.png" alt="Imagem 2" width="1000"/>   
 
 
 ### CÁLCULOS
@@ -70,7 +86,8 @@ No painel de **BASES** estão todos os dados ligados as vendas de assinaturas do
 
 Aqui são feito os **CÁLCULOS** puxados na base de dados (Painel **BASES**), na qual temos 4 tabelas dinâmicas. 
 Cada uma respondendo as perguntas da ***Gerência*** sobre as vendas. Mas essas informações são mais claras na tabela de **DASHBOARD**.   
-(Imagem 3)
+
+<img src="IMAGES/IMG3-CALCULOS.png" alt="Imagem 3" width="750"/>   
 
    
 ### DASHBOARD
@@ -92,7 +109,7 @@ Temos o total de dois Gráficos e dois visualizadores de totais de vendas.
 3. TOTAL DE SUBSCRIPTION XBOX GAME PASS - AUTO RENEWAL: Gráfico com o Valor total de inscrições do XBOX GAME PASS tirados da coluna "TOTAL VALUE", separados por "Auto Renovação" ou "Não é Auto Renovação". 
 4. AESÃO TOTAL DE SUBSCRIPTION TYPE: Gráfico com a Soma da contagem de assinaturas realizadas do XBOX GAME PASS, divididas e variadas em mêses.   
 
-(Imagem 4)
+<img src="IMAGES/IMG4-DASHBOARD.png" alt="Imagem 4" width="750"/>   
 
 
 ## 🛠 Considerações Finais
@@ -103,3 +120,9 @@ Futuramente posso fazer um ajuste ou outro no arquivo e em suas funcionalidades,
 
 
 ## 📥 Download da Planilha do Projeto
+
+
+[📊 Baixar planilha Excel](ProjetoEXCEL/Dashboard%20de%20Vendas%20-%20XBOX.xlsx)
+
+
+
