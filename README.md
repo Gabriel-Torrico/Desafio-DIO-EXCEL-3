@@ -28,7 +28,7 @@ Os seguintes painéis seria:
 2. [BASES](#bases): Base de dados necessários para que a análise seja feita sobre ele;
 3. [CÁLCULOS](#cálculos): Campo que processa a base de dados para transformar em informações;
 
-5. [*DASHBOARD*](#dashboard): Painel visual para análises claras. 
+5. [***DASHBOARD***](#dashboard): Painel visual para análises claras. 
 
 Para os usuários que irão trabalhar os dados principais de vendas, todas as funcionalidades estão no painel de ***DASHBOARD***.   
 
