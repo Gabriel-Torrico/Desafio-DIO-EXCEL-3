@@ -42,10 +42,10 @@ Para os usuários que irão trabalhar os dados principais de vendas, todas as fu
 Neste primeiro painel é onde separamos os recursos que iremos utilizar em todo o projeto, especialmente para os painéis que o usuário/analista irá trabalhar. Tais recursos seria: 
 
 #### Paleta de cores 
-  1. Xbox Color 1: #9BC848;
-  2. Xbox Color 2: #22C55E;
-  3. Menus 1: #2AE6B1;
-  4. Menus 2: #5BF6A8.
+  1. $\color{#9BC848}{\textsf{Xbox Color 1}}$: #9BC848;
+  2. $\color{#22C55E}{\textsf{Xbox Color 2}}$: #22C55E;
+  3. $\color{#2AE6B1}{\textsf{Menus 1}}$: #2AE6B1;
+  4. $\color{#5BF6A8}{\textsf{Menus 2}}$: #5BF6A8.
 
 #### Logos 
   1. XBOX: Logo do segmento de games da empresa; 
@@ -58,7 +58,10 @@ Neste primeiro painel é onde separamos os recursos que iremos utilizar em todo 
   2. Lupa: Ícone de Pesquisa/Filtragem;
 
 
-### Etapa Bases
+### Bases
+
+
+No painel de **BASES** 
 
 
 
