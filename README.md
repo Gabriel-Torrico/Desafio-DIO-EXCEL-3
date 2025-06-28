@@ -36,10 +36,30 @@ Para os usuários que irão trabalhar os dados principais de vendas, todas as fu
 ## 🧱 Passo a Passo
 
 
-### Etapa 1: ASSETS
+### ASSETS
 
 
-Nesta primeira etapa é onde separamos os recursos que iremos utilizar em todo o projeto, especialmente nos painéis que o usuário/analista irá trabalhar. 
+Neste primeiro painel é onde separamos os recursos que iremos utilizar em todo o projeto, especialmente para os painéis que o usuário/analista irá trabalhar. Tais recursos seria: 
+
+#### Paleta de cores 
+  1. Xbox Color 1: #9BC848;
+  2. Xbox Color 2: #22C55E;
+  3. Menus 1: #2AE6B1;
+  4. Menus 2: #5BF6A8.
+
+#### Logos 
+  1. XBOX: Logo do segmento de games da empresa; 
+  2. XBOX ONE: Produto da empresa, opicional; 
+  3. EA Play: Assinatura adicional e opicional do Game Pass para jogos da *Eletronic Arts*;
+  4. Minecraft: Logo do jogo sandbox, que nele contém um adicional do Game Pass chamado "*Minecraft Season Pass Price*";  
+
+#### Ícones
+  1. Usuários: Ícone de pessoa a depender do usuário/analista/gerente;
+  2. Lupa: Ícone de Pesquisa/Filtragem;
+
+
+### Etapa Bases
+
 
 
 
