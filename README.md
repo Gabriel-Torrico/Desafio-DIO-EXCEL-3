@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/156999df-7584-4e01-a166-f3285855a42b)![image](https://github.com/user-attachments/assets/cf60caee-e30d-47df-ad4b-faa635473d0d)***DESAFIO DE CURSO DIO - Projeto de Excel ✒***         
+***DESAFIO DE CURSO DIO - Projeto de Excel ✒***         
 ****DASHBOARD DE VENDAS****
 
 ## 📄 Descrição
